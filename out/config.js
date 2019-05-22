@@ -9,8 +9,8 @@ const chromeItem = {
         ? 'chrome'
         : (platform === 'darwin'
             ? 'google chrome'
-            : 'google-chrome'),
-    acceptName: ['chrome', 'google chrome', 'google-chrome', 'gc', '谷歌浏览器']
+            : 'google-chrome-stable'),
+    acceptName: ['chrome', 'google chrome', 'google-chrome-stable', 'gc', '谷歌浏览器']
 };
 const chromiumItem = {
     description: "Mac",
